@@ -1,0 +1,91 @@
+College Management System - ER Diagram Assignment
+
+Objective
+
+Design an Entity-Relationship (ER) diagram for a College Management System.
+
+Entities
+
+Your diagram must include:
+
+Student
+
+Course
+
+Faculty
+
+Department
+
+Required Relationships and Cardinalities
+
+Relationship
+
+Cardinality
+
+Department has Students
+
+One-to-Many (1)
+
+Faculty handles Courses
+
+One-to-Many (1)
+
+Student enrolls in Course
+
+Many-to-Many (M)
+
+Suggested attributes
+
+You may use these attributes:
+
+Student: StudentID (PK), StudentName, Email
+
+Course: CourseID (PK), CourseName, Credits
+
+Faculty: FacultyID (PK), FacultyName
+
+Department: DepartmentID (PK), DepartmentName
+
+For the M relationship, you may introduce an associative entity such as Enrollment with StudentID and CourseID as foreign keys.
+
+About 1:1
+
+The question asks that one-to-one, one-to-many, and many-to-many relationships be mentioned clearly. The required college relationships include 1 and M, but no 1:1 relationship is specified.
+
+Therefore, do not force a 1:1 label onto a required relationship. If your instructor specifically requires a 1:1 example, add a justified extra entity/relationship and label it separately.
+
+Submission Format
+
+Create the final diagram as:
+
+ER_Diagram.png
+
+Place the file in the root of your GitHub repository.
+
+How to Submit
+
+Clone/open your assigned repository.
+
+Create ER_Diagram.png.
+
+Make sure the diagram is readable.
+
+Commit and push the file.
+
+Check the Actions tab.
+
+A successful submission should show all automated tests passing.
+
+Grading
+
+The automated checker verifies:
+
+ER_Diagram.png exists.
+
+The file is a valid PNG.
+
+The image is not empty or extremely small.
+
+The diagram is large enough to be reasonably readable.
+
+Content/cardinality correctness is also part of the instructor's manual evaluation.
